@@ -42,7 +42,7 @@ const Navbar = () => {
             </ul>
           </div>
           <a href="#">
-            <img src="../../public/images/main-logo.png" alt="logo" />
+            <img src="images/main-logo.png" alt="logo" />
           </a>
         </div>
         <div className="navbar-center hidden lg:flex">
