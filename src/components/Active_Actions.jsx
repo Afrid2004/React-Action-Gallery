@@ -12,7 +12,7 @@ const Active_Actions = () => {
           <h4 className="mb-2 text-3xl font-medium">Active Auctions</h4>
           <p className="mb-3">Discover and bid on extraordinary items</p>
         </div>
-        <div className="flex gap-3 w-full flex-wrap">
+        <div className="flex gap-3 w-full flex-wrap lg:flex-nowrap">
           <div className="lg:w-[70%]">
             <div>
               <Provider store={Store}>

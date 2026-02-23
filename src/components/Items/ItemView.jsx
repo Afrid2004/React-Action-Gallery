@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { fetchData } from "./ItemSlice";
-import Item from "./item";
+import Item from "./Item";
 
 const ItemView = () => {
   const items = useSelector((state) => state.ItemReducer.dataItem);
